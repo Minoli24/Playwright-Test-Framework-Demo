@@ -6,7 +6,7 @@ let Login;
 test('TC_001 - Successful login with valid credentials', async ({ page }) => {
   Login = new LoginPage(page);
   await Login.gotoLoginPage();
-  await Login.enterUsername('rahulshettyacademy');
+  await Login.enterUsername('rahulsheyacademy');
   await Login.enterPassword('learning');
   await Login.PickRoleAsUser();
   await Login.selectAgreeButton();
